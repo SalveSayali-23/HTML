@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emlpoyee form</title>
+  </head>
+  <body>
+    <h2>Employee Data</h2>
+    <form>
+      <label for="Name">Enetr Name:</label>
+      <input type="text" id="Name" />
+
+      <br />
+
+      <div>Email id: <input type="email" /></div>
+      <br />
+
+      <div>Date: <input type="date" name="myDate" /></div>
+      <br />
+
+      <div>
+        Gender: Male <input type="radio" name="myGender" /> Female
+        <input type="radio" name="myGender" /> Other
+        <input type="radio" name="myGender" />
+      </div>
+      <br />
+
+      <div>
+        Wrtite about yourself <br /><textarea
+          name="myText"
+          id=""
+          cols="70"
+          rows="10"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="Role">Role: </label>
+        <select name="myRole" id="Role">
+          <option value="Developer" selected>SDE</option>
+          <option value="Devops engineer">Devop</option>
+          <option value="MLE">ML Engineeer</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <input type="submit" value="Submit Now" />
+        <input type="reset" value="Reset now" />
+      </div>
+    </form>
+  </body>
+</html>
