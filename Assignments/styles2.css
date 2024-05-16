@@ -1,0 +1,36 @@
+.f-container{
+  
+  border:2px solid grey;
+  height:40vh;
+  display:flex;
+  /* flex-direction:column-reverse; */
+  justify-content:center;
+  /* justify-content:flex-start; */ 
+  /* justify-content:flex-end; */
+  /* align-items: center; vertically center the elements */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+
+  flex-wrap: nowrap;
+  /* flex-flow:column wrap */
+  
+}
+.fitem{
+  border:3px solid red;
+  margin: 14px;
+  height: 120px;
+  width:120px;
+  background-color: rgb(204, 255, 0);
+  }
+  .item1{
+    /* order:3; */
+    /* flex-grow:3; */
+    /* flex-shrink:3; */
+    align-self:center;
+    
+  }
+  .item2{
+    order:2;
+    /* align-self:center; */
+   
+  }

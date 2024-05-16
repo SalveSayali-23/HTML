@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" />
+    <meta name="description" content="This is form page" />
+  </head>
+  <title>Form page</title>
+  <body>
+    <form>
+      <label for="name">Enetr a name:</label>
+      <input name="text" placeholder="Enter Username" id="name" required />
+      <br />
+      <label for="password">Enetr a password:</label>
+      <input
+        name="password"
+        placeholder="Enter a password "
+        id="password"
+        required
+      />
+      <br />
+      <label for="email">Enetr a emailid:</label>
+      <input name="email" placeholder="Enter a email" id="email" required />
+      <br />
+      <br />
+      <div>
+        Gender: Male: <input type="radio" value="Male" /> Female:
+        <input type="radio" value="Female" /> Other:
+        <input type="radio" value="Other" />
+      </div>
+      <br />
+      <div>
+        Are you Elegible: yes: <input type="checkbox" checked /> No:
+        <input type="checkbox" />
+      </div>
+      <br />
+      <div>
+        <select name="Role">
+          <option value="dev">Deveoper</option>
+          <option value="MLE">MLE</option>
+          <option value="design">Designer</option>
+        </select>
+      </div>
+
+      <input type="submit" value="submit now" />
+      <input type="reset" value="Reset now" />
+    </form>
+  </body>
+</html>
