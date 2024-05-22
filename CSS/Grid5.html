@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid</title>
+    <style>
+      .container {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas:'navbar navbar navbar navbar' 'section section section aside'  'footer footer footer footer';
+      }
+      .item {
+        background-color: burlywood;
+        border: 2px solid red;
+        padding: 12px 23px;
+      }
+      #navbar{
+        grid-area: navbar;
+      }
+
+      #section{
+        grid-area: section;
+      }
+
+      #aside{
+        grid-area: aside;
+      }
+      footer{
+        grid-area: footer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="navbar" class="item">Home About Contacts</div>
+      <div id="section" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, accusantium voluptatem. Eaque debitis voluptatum quaerat ad nihil neque rerum commodi, autem ab tempore?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur quod doloremque voluptates sunt sint! Placeat dicta illo facere molestias optio unde, et suscipit quia iusto culpa magni consequatur a modi debitis labore sit consequuntur assumenda enim exercitationem delectus sed similique?</div>
+      <div id="aside" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus adipisci hic perferendis ex?Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quidem quia aliquid, qui cupiditate ad nihil libero nobis molestias minus quo aperiam consectetur! Incidunt voluptas ea, ab minima ducimus est repellendus eveniet tenetur iusto debitis nemo, adipisci velit deserunt molestiae.</div>
+      <footer class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis illum aliquid quod.</footer>
+    </div>
+  </body>
+</html>
