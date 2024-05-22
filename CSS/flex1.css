@@ -1,0 +1,53 @@
+*{
+  margin: 2px;
+
+}
+body{
+  font-size: 20px;
+  color: aliceblue;
+  height: 100vh;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+
+}
+
+.flex-header{
+  background-color: rgb(94, 94, 181);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.flex-main{
+display: flex;
+
+flex:1;/*tekesup extra space available vertically*/
+}
+
+.flex-nav{
+  background-color: rgb(203, 22, 143);
+  padding-top: 3rem;
+  flex: 1 1 5rem;
+}
+
+.flex-article{
+  background-color: rgb(46, 232, 123);
+  padding-top: 3rem;
+  flex: 3 3 5rem;
+}
+.flex-aside{
+  background-color:rgb(203, 22, 143);
+  padding-top: 3rem;
+  flex: 1 1 5rem;
+}
+.flex-footer{
+  background-color:  rgb(94, 94, 181);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media all and (max-width:540px){
+  .flex-main{
+    flex-direction: column;
+  }
+}
+

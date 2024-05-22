@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS trnasform</title>
+  <style>
+    *{
+      margin:0px;
+      padding: 0px;
+    }
+    .container{
+      height: 90vh;
+      background-color: rgb(242, 242, 93);
+      display:flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .box{
+      background-color: rgb(179, 127, 228);
+      width: 300px;
+      height: 300px;
+      border: 3px solid rgb(255, 0, 128);
+      border-radius: 4px;
+     
+      transition: all 1s ease-in-out;
+    }
+
+    .box:hover{
+      /* transform: rotate(45deg); */
+      /* transform: skewX(30deg); */
+      /* transform: scale(2); */
+      /* transform: translateY(20%); */
+      transform: translate(120px, 120px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">This is box</div>
+  </div>
+</body>
+</html>
