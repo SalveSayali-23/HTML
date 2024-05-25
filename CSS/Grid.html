@@ -5,28 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS grid</title>
     <style>
-      .container{
+      .container {
         /* container is grid and all other divs are grid items */
         display: grid;
         /* grid-template-columns: 300px 100px 100px; */
-       
+
         /* grid-template-columns: 300px  auto 100px; */
-       
+
         /* grid-template-columns:1fr 4fr 1fr ;  */
         /*ratio is 1:4:1*/
 
-        grid-template-columns: repeat(3,auto);
+        grid-template-columns: repeat(3, auto);
         grid-gap: 2rem;
-
       }
-      .item{
+      .item {
         /* height: 100px;
         width: 100px; */
         background-color: aquamarine;
-  padding: 15px 5px;
-    border:2px solid black;
+        padding: 15px 5px;
+        border: 2px solid black;
       }
-
     </style>
   </head>
   <body>
